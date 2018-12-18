@@ -1,6 +1,6 @@
 ---
 title: Computational Biologist
-date: 2017-01-04T15:04:10.000Z
+date: 2018-12-17T15:04:10.000Z
 description: >-
   As a computational biologist at Hexagon Bio, your job will be to leverage
   modern computational methods to mine genome data. 
@@ -10,12 +10,12 @@ You will interface with our biology and chemistry teams, helping us use sequenci
 
 ## Qualifications
 
-1. a PhD or equivalent experience in computational biology or bioinformatics
-2. extensive programming experience, preferably Python
-3. experience with pipelining tools like snakemake and nextflow preferred
-4. experience with DNA sequence analysis, alignment and assembly preferred
-5. experience with statistics and/or machine learning preferred
-6. an interest in drug development and biotech
-7. the flexibility to work at the early stages of a startup
+* a PhD or equivalent experience in computational biology or bioinformatics
+* extensive programming experience, preferably Python
+* experience with pipelining tools like snakemake and nextflow preferred
+* experience with DNA sequence analysis, alignment and assembly preferred
+* experience with statistics and/or machine learning preferred
+* an interest in drug development and biotech
+* the flexibility to work at the early stages of a startup
 
 To apply, please send your CV and cover letter to info@hexagonbio.com.
