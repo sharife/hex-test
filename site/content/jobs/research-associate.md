@@ -1,28 +1,24 @@
 ---
-title: "Research Associate / Senior Research Associate"
-date: 2016-12-17T15:04:10.000Z
-description: The Coffee Taster’s Flavor Wheel, the official resource used by coffee tasters, has been revised for the first time this year.
-image: /img/blog-flavor_wheel.jpg
-type: job
+title: Research Associate / Senior Research Associate
+date: 2016-12-17T17:00:10.000Z
+description: >-
+  The Research Associate (RA) will be introduced to all aspects of Hexagon Bio’s
+  development platforms. You will apply scientific principles and training to
+  facilitate and perform experiments and data analysis with minimal supervision.
+  Knowledge of molecular biology is required and organic chemistry experience is
+  desired. 
+image: ''
 ---
+The ideal candidate should be a self-starter who will troubleshoot issues, identify solutions and propose new studies based on findings to further the project needs. You will provide technical support to the senior scientific staff as well as designing and performing experiments for which you will have ownership of the work stream from design and execution of experiments to data analysis and maintenance. Data will be presented to the team and the RA is expected to be a key contributor to the discussion.
 
-The SCAA updated the wheel to reflect the finer nuances needed to describe flavors more precisely. The new descriptions are more detailed and hence allow cuppers to distinguish between more flavors.
+## Qualifications
 
-While this is going to be a big change for professional coffee tasters, it means a lot to you as a consumer as well. We’ll explain how the wheel came to be, how pros use it and what the flavors actually mean.
+* Strong scientific curiosity and passion for drug development
+* B.S. or M.S. in biochemistry, microbiology, molecular biology, chemistry or related field
+* 2+ years laboratory experience
+* Experience in molecular biology techniques such as PCR, Gibson assembly, and plasmid DNA isolation and purification
+* Broad technical proficiency
+* Ability to thrive in a fast-paced, start-up environment
+* Excellent collaboration and communication skills
 
-## What the updates mean to you
-
-The Specialty Coffee Association of America (SCAA), founded in 1982, is a non-profit trade organization for the specialty coffee industry. With members located in more than 40 countries, SCAA represents every segment of the specialty coffee industry, including:
-
-- producers
-- roasters
-- importers/exporters
-- retailers
-- manufacturers
-- baristas
-
-For over 30 years, SCAA has been dedicated to creating a vibrant specialty coffee community by recognizing, developing and promoting specialty coffee. SCAA sets and maintains quality standards for the industry, conducts market research, and provides education, training, resources, and business services for its members.
-
-Coffee cupping, or coffee tasting, is the practice of observing the tastes and aromas of brewed coffee. It is a professional practice but can be done informally by anyone or by professionals known as "Q Graders". A standard coffee cupping procedure involves deeply sniffing the coffee, then loudly slurping the coffee so it spreads to the back of the tongue.
-
-The coffee taster attempts to measure aspects of the coffee's taste, specifically the body (the texture or mouthfeel, such as oiliness), sweetness, acidity (a sharp and tangy feeling, like when biting into an orange), flavour (the characters in the cup), and aftertaste. Since coffee beans embody telltale flavours from the region where they were grown, cuppers may attempt to identify the coffee's origin.
+To apply, please send your CV and cover letter to jobs@hexagonbio.com.
