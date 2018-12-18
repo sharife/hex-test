@@ -1,0 +1,23 @@
+{{ define "main" }}
+
+{{ partial "hero-sm" (dict "imageUrl" .Params.image "title" .Title "subtitle" .Params.subtitle "intro" .Params.intro) }}
+
+{{ partial "2-up" .Params }}
+
+{{ partial "image-l" (dict "imageUrl" .Params.imageL) }}
+
+{{ partial "text-and-image-r" (dict "heading" .Params.platform.heading "text1" .Params.platform.text1 "text2" .Params.platform.text2 "image" .Params.platform.image) }}
+
+<!-- <div class="mw7 center ph3 pt4">
+
+  {{ range $index, $element := .Params.abouts }}
+    {{ if modBool $index 2 }}
+      {{ partial "media-block" $element }}
+    {{ else }}
+      {{ partial "media-block-reverse" $element }}
+    {{ end }}
+  {{ end }}
+
+</div> -->
+
+{{ end }}

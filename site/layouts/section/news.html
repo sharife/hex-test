@@ -1,0 +1,16 @@
+{{ define "main" }}
+
+{{ partial "hero-sm" (dict "imageUrl" "/img/news-right.png" "title" "News") }}
+
+<div class="mw7 ph5" style="margin-top:-10%">
+  <ul class="flex-ns flex-wrap mhn1-ns pv3">
+      {{ range (.Paginator 4).Pages.ByPublishDate.Reverse }}
+          <div class="w-80-ns flex">
+            {{ .Render "li-news"}}
+          </div>
+      {{ end }}
+  </ul>
+  {{ partial "pagination" . }}
+</div>
+
+{{end}}

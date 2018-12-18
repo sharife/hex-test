@@ -1,20 +1,23 @@
 ---
-title: "Great coffee with a conscience"
-subtitle: Support sustainable farming while enjoying a cup
-image: /img/home-jumbotron.jpg
-blurb:
-    heading: Why Kaldi?
-    text: "Kaldi is the coffee store for everyone who believes that great coffee shouldn't just taste good, it should do good too. We source all of our beans directly from small scale sustainable farmers and make sure part of the profits are reinvested in their communities."
+title: "We use data science and synthetic biology to discover and develop new medicines."
+image: /img/home-jumbo.png
+imageL: /img/home-left.png
 intro:
-    heading: "What we offer"
-    text: "Kaldi is the ultimate spot for coffee lovers who want to learn about their java’s origin and support the farmers that grew it. We take coffee production, roasting and brewing seriously and we’re glad to pass that knowledge to anyone."
-products:
-    - image: img/illustrations-coffee.svg
-      text: "We sell green and roasted coffee beans that are sourced directly from independent farmers and farm cooperatives. We’re proud to offer a variety of coffee beans grown with great care for the environment and local communities. Check our post or contact us directly for current availability."
-    - image: /img/illustrations-coffee-gear.svg
-      text: "We offer a small, but carefully curated selection of brewing gear and tools for every taste and experience level. No matter if you roast your own beans or just bought your first french press, you’ll find a gadget to fall in love with in our shop."
-values:
-    heading: Our values
-    text: Coffee is an amazing part of human culture but it has a dark side too – one of colonialism and mindless abuse of natural resources and human lives. We want to turn this around and return the coffee trade to the drink’s exhilarating, empowering and unifying nature.
+    heading: "Finding Small Molecules to Treat Disease"
+    text: "We know many of the proteins that drive illnesses like cancer, but most are considered “undruggable” by experts. However, small molecules have evolved in several other species to target these proteins. Now, we have a way to find them and develop them into medicines."
+icons:
+    - image: img/icon-genomics.svg
+      heading: "GENOMICS"
+      text: "Thanks to exponential reductions in DNA sequencing costs, thousands of species' genomes are available now."
+    - image: /img/icon-datascience.svg
+      heading: "DATA SCIENCE"
+      text: "Our proprietary algorithm searches genomes for small molecule inhibitors of selected target proteins."
+    - image: /img/icon-synthbio.svg
+      heading: "SYNTHETIC BIOLOGY"
+      text: "Our unique synthetic biology platform enables us to rapidly produce lead compounds for clinical development."
+jobs:
+    heading: Driven to Discover
+    image: /img/home-jobs.jpg
+    text: Hexagon’s team includes PhDs in computational biology, biochemistry, and chemistry, as well as senior software engineers. We’re driven by the confidence that medicine’s greatest discoveries lie ahead, and are now within reach.
 ---
 

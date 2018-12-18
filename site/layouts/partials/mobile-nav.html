@@ -1,0 +1,17 @@
+<div class="tab-bar">
+  <nav class="tab-bar-nav" role="navigation">
+    <ul>
+      {{ $mycurrentPage := . }}
+      {{ range .Site.Menus.main }}
+      {{ $icon := .Pre }}
+      {{ $path := (printf "%s%s" "icons/" $icon ) }}
+      <li class="{{if or ($mycurrentPage.IsMenuCurrent " main " .) ($mycurrentPage.HasMenuCurrent "main " .) }} active{{end}}">
+        <a href="{{.URL}}">
+          <span class="menu-icon">{{ partial $path . }}</span>
+          <span>{{ .Name }}</span>
+        </a>
+      </li>
+      {{ end }}
+    </ul>
+  </nav>
+</div>

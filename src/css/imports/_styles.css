@@ -2,14 +2,98 @@
   background-color: var(--highlight);
 }
 
+.page {
+  background: lightgrey;
+}
+.container {
+  max-width: 1440px;
+  background: white;
+  margin: auto;
+  overflow-x: hidden;
+}
+
+.nav-r {
+  display: none;
+}
+
+
 /* Used in the navbar */
-.divider-grey {
-  box-shadow: inset 0 -4px 0 var(--grey-1);
+.divider-black {
+  box-shadow: inset 0 -4px 0 var(--black);
   /* Link hover states */
-  & a {
-    transition: var(--hover-transition);
-  }
-  & ul a:hover, & ul a:focus {
+  & ul a:hover, & ul a:focus, & ul a:active {
     box-shadow: inset 0 -4px 0 var(--primary);
   }
 }
+
+.divider-black .active {
+  box-shadow: inset 0 -4px 0 var(--primary);
+}
+
+.sidenav .active {
+  box-shadow: inset -4px 0 0 var(--primary);
+  color: white;
+}
+
+
+
+.header-image {
+  z-index: 0;
+  position: relative;
+  width: 100%;
+}
+
+.header-image-sm {
+  z-index: 0;
+  position: relative;
+  width: 45%;
+  margin-top: -20%;
+  left: 70%;
+  overflow-x:hidden;
+}
+
+.image-l {
+  z-index: 0;
+  position: relative;
+  width: 45%;
+  margin-top: -15%;
+  left: -20%;
+  overflow-x:hidden;
+}
+
+.header-text {
+  z-index:1; 
+  margin-top: -74%;
+}
+
+.header-text-sm {
+  z-index:1; 
+  margin-top: -68%;
+}
+
+
+@media only screen and (max-width: 640px) {
+  .nav-r {
+    display: inline;
+  }
+  .nav-p {
+    display: none;
+  }
+}
+
+
+@media only screen and (max-width: 420px) {
+  .bg-fix-primary  {
+    padding-right:3rem;
+  }
+  .bg-fix-secondary  {
+    padding-right:0rem;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .bg-fix-primary  {
+    padding-right:1.7rem;
+  }
+}
+

@@ -1,13 +1,13 @@
 {{ define "main" }}
 
-{{ partial "jumbotron" (dict "imageUrl" .Params.image "title" .Title "subtitle" .Params.subtitle) }}
+{{ partial "hero-home" (dict "imageUrl" .Params.image "title" .Title "subtitle" .Params.subtitle) }}
 
-{{ partial "short-text" .Params.blurb}}
+{{ partial "3-up" .Params }}
 
-{{ partial "2-up" .Params }}
+{{ partial "image-l" (dict "imageUrl" .Params.imageL) }}
 
-{{ partial "text-and-image" (dict "heading" .Params.values.heading "text" .Params.values.text "buttonText" "Read more" "buttonLink" "/values") }}
+{{ partial "news-sm" . }}
 
-{{ partial "blog" . }}
+{{ partial "text-and-image-c" (dict "heading" .Params.jobs.heading "text" .Params.jobs.text "image" .Params.jobs.image "buttonText1" "Our team »" "buttonLink1" "/team" "buttonText2" "Join us »" "buttonLink2" "/jobs") }}
 
 {{ end }}

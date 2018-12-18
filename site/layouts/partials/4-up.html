@@ -1,12 +1,13 @@
-<div class="bg-off-white pv4">
-	<div class="ph3 mw7 center">
+<div class="pv4" style="margin-top:-10%">
+	<div class="ph5 mw7">
 		<h2 class="f2 b lh-title mb2">{{.heading}}</h2>
-		<p class="mb4 mw6">{{.description}}</p>
 
 		<div class="flex-ns flex-wrap mhn2-ns mb3">
-			{{ range .blurbs }}
-				<div class="ph2-ns w-50-ns mb4">
-					<img src="{{ .image }}" alt="" class="center db mb3" style="width: 240px">
+			{{ range .bios }}
+				<div class="w-50-ns mb4 ph3-ns" style="padding-left:0;">
+					<img src="{{ .image }}" alt="" class="db mb3" style="width:75%">
+					<p class="f4 b mb1">{{ .name }}</p>
+					<p class="f6 mb1">{{ .title }}</p>
 					<p>{{ .text }}</p>
 				</div>
 			{{ end }}

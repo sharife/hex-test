@@ -1,0 +1,14 @@
+<div id="mySidenav" class="sidenav">
+	<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <ul>
+		{{ $currentPage := . }}
+        {{ range .Site.Menus.main }}
+            <li>
+	            <a href="{{ .URL }}" class="pa3 white no-underline db f6 {{if or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) }} active{{end}}">
+	                {{ .Pre }}
+	                <span>{{ .Name }}</span>
+	            </a>
+	        </li>
+        {{ end }}	
+	</ul>
+</div>

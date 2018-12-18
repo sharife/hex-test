@@ -1,19 +1,41 @@
-<nav class="overflow-x-scroll overflow-x-visible-ns flex justify-between items-center center bg-white divider-grey relative">
+<nav class="overflow-x-scroll overflow-x-visible-ns flex justify-between items-center center bg-black divider-black relative z-2">
 
 	<!-- Logo -->
-	<a href="/" class="pa3 db mr4 h-100 w3 flex-none">
-		<img src="/img/logo.svg" alt="Kaldi logo" class="br0 db mb0 w-100"/>
+	<a href="/" class="pa3 db mr4 h-100 w4 flex-none">
+		<img src="/img/logo.svg" alt="Hexagon logo" class="br0 db mb0 w-100"/>
 	</a>
 
 	<!-- Primary Nav -->
-	<ul class="flex b grey-3">
-		<li><a href="/products" class="pa3 no-underline db">Products</a></li>
+	<div class="nav-p">
+		<ul class="flex b">
 
-		<li><a href="/values" class="pa3 no-underline db">Values</a></li>
+			{{ $currentPage := . }}
+	        {{ range .Site.Menus.main }}
+	            <li>
+		            <a href="{{ .URL }}" class="pa3 white no-underline db f6 {{if or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) }} active{{end}}">
+		                {{ .Pre }}
+		                <span>{{ .Name }}</span>
+		            </a>
+		        </li>
+	        {{ end }}
+			
+		</ul>
+	</div>
 
-		<li><a href="/post" class="pa3 no-underline db">Blog</a></li>
-
-		<li><a href="/contact" class="pa3 no-underline db">Contact</a></li>
-	</ul>
-
+	<!-- Responsive Nav -->
+	<div class="nav-r">
+		<a href="#" class="ph3 white no-underline" onclick="openSidenav();">&#9776;</a>
+	</div>
 </nav>
+
+
+<script>
+function openSidenav() {
+  document.getElementById("mySidenav").style.width = "250px";
+}
+
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+}
+</script>
+   
