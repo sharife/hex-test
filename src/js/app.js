@@ -13,7 +13,8 @@ $(function(){  // $(document).ready shorthand
   $('.intro1').fadeIn(1500);
   $('.intro1').addClass('scaler');
   $('.intro2').delay(2500).fadeIn(1000);
-  $('.intro3').delay(3500).fadeIn(1000);
+  $('.intro3').delay(3000).fadeIn(1000);
+  $('.image-l').delay(1).fadeIn(1000);
 });
 
 
