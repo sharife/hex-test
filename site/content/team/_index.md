@@ -3,7 +3,6 @@ title: Our team
 subtitle: >-
   Hexagon’s diverse team combines computational biology and experimental
   investigation, with deep expertise at the intersection of these fields.
-description: ' '
 founders:
   bios:
     - image: /img/fpo.png
