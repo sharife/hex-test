@@ -99,7 +99,7 @@ collections: # A list of collections the CMS should be able to edit
             widget: object
             fields:
               - {label: Heading, name: heading, widget: string}
-              - label: :Logos
+              - label: Logos
                 name: items
                 widget: list
                 fields:

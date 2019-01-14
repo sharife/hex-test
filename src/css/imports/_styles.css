@@ -2,6 +2,24 @@
   background-color: var(--highlight);
 }
 
+.hideme {
+  opacity: 0;
+  padding-top:10px;
+}
+
+.intro1, .intro2, .intro3 {
+  display: none;
+}
+
+.intro1 {
+  transform: scale(0.75);
+  transition: transform 750ms ease-out;
+}
+
+.scaler {
+  transform: scale(1);
+}
+
 .page {
   background: lightgrey;
 }

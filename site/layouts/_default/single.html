@@ -1,6 +1,8 @@
 {{ define "main" }}
 
-  <div class="mw7 ph5 pv4">
+{{ partial "hero-sm" (dict "imageUrl" "/img/jobs-right.png" "title" "Jobs @ Hexagon Bio" "intro" "Learn more about the position below. To apply, please send your CV and cover letter to jobs@hexagonbio.com.") }}
+
+  <div class="mw7 ph5" style="margin-top:-10%">
     <h1 class="f2 lh-title b mb3">{{.Title}}</h1>
     <div class="flex justify-between grey-3">
       <p class="f6">{{ .Date.Format "Mon, Jan 2, 2006" }}</p>
@@ -10,7 +12,7 @@
       {{ if .Params.image }}<img src="{{ .Params.image }}" alt="{{ .Title }}" />{{ end }}
       {{ .Content }}
     </div>
-    <div class="pv3">
+    <div class="pv4">
       <a href="/jobs" class="btn raise">« Back to jobs</a>
     </div>
   </div>
