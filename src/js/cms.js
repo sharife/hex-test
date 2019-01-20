@@ -26,6 +26,6 @@ CMS.registerPreviewTemplate("home", HomePreview);
 CMS.registerPreviewTemplate("about", AboutPreview);
 CMS.registerPreviewTemplate("news", NewsPreview);
 CMS.registerPreviewTemplate("team", TeamPreview);
-CMS.registerPreviewTemplate("jobs", JobsPreview);
+CMS.registerPreviewTemplate("job", JobsPreview);
 CMS.registerPreviewTemplate("contact", ContactPreview);
 CMS.registerWidget("color", ColorControl);

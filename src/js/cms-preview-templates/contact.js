@@ -1,28 +1,32 @@
 import React from "react";
 
-const ContactEntry = ({heading, text}) =>
-  <div>
-    <h4 className="f4 b lh-title mb2 primary">{ heading }</h4>
-    <p>{ text }</p>
-  </div>;
-
-const ContactEntries = ({data}) => data && data.length > 0
-    ? <div className="flex-ns mb3">
-      {data.map(({heading, text}) => <ContactEntry heading={heading} text={text} />)}
-    </div>
-    : "";
-
 export default class ContactPreview extends React.Component {
   render() {
     const {entry, getAsset, widgetFor} = this.props;
-    const entryContactEntries = entry.getIn(["data", "contact_entries"]);
-    const contactEntries = entryContactEntries ? entryContactEntries.toJS() : [];
-    return <div className="ph3 bg-off-white">
-      <img src={getAsset(entry.getIn(["data", "logo"]))} alt="" className="db w4 center pv4" />
-      <div className="center mw6 pv3">
-        { widgetFor("body") }
-        <ContactEntries data={contactEntries} />
-      </div>
-    </div>;
+    let mapimage = getAsset(entry.getIn(["data", "map"]));
+
+    return <div className="ph3 mw7 center">
+        <div className="w-40-l ph2-l">
+          <h2 className="f2 b lh-title mb2 tc">{entry.getIn(["data", "title"])}</h2>
+
+          <p className="mb4 mw6 center tc">{entry.getIn(["data", "intro"])}</p>
+
+          <img src={mapimage} alt="" className="center mb3"/>
+
+          <div className="flex-ns mb3 center">
+            <div className="w-40 center">
+              <h4 className="f4 b lh-title mb2 primary">Location</h4>
+              <p>{entry.getIn(["data", "location"])}</p>
+            </div>
+
+            <div className="w-40 center">
+              <h4 className="f4 b lh-title mb2 primary">Inquiries</h4>
+              <p>{entry.getIn(["data", "inquiries"])}</p>
+            </div>
+          </div>
+
+
+        </div>
+      </div>;
   }
 }

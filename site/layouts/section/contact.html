@@ -1,19 +1,24 @@
 {{ define "main" }}
 
-<div class="ph3 bg-off-white">
+<div class="ph3">
 	<div class="center mw6 pv3 tc">
 
-		{{ .Content }}
+		<h3 class="f2 b lh-title mb2">{{ .Params.title }}</h3>
+
+		<p>{{ .Params.intro }}</p>
 
 		<a href="{{ .Params.link }}"><img src="{{ .Params.map }}" alt="" class="db w8 center pv4"></a>
 
-		<div class="flex-ns mb3">
-	        	{{ range .Params.contact_entries }}
-				<div>
-					<h4 class="f4 b lh-title mb2 primary">{{ .heading }}</h4>
-					<p>{{ .text }}</p>
-				</div>
-			{{ end }}
+		<div class="flex-ns mb3 center">
+			<div class="w-40 center">
+				<h4 class="f4 b lh-title mb2 primary">Location</h4>
+				<p>{{ .Params.location }}</p>
+			</div>
+
+			<div class="w-40 center">
+				<h4 class="f4 b lh-title mb2 primary">Inquiries</h4>
+				<p>{{ .Params.inquiries }}</p>
+			</div>
 		</div>
 
 		{{ partial "contact-form" . }}

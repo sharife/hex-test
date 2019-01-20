@@ -35,8 +35,6 @@ collections: # A list of collections the CMS should be able to edit
         name: "home"
         fields:
           - {label: Title, name: title, widget: string}
-          - {label: "Image Right", name: "image", widget: "image"}
-          - {label: "Image Left", name: "imageL", widget: "image"}
           - {label: "Intro", name: intro, widget: object, fields: [
               {label: "Heading", name: "heading", widget: string},
               {label: "Text", name: "text", widget: "text"}]}
@@ -48,23 +46,6 @@ collections: # A list of collections the CMS should be able to edit
               {label: "Image", name: "image", widget: "image"},
               {label: "Heading", name: "heading", widget: string},
               {label: "Text", name: "text", widget: "text"}]}
-      - file: "site/content/contact/_index.md"
-        label: "Contact Page"
-        name: "contact"
-        fields:
-          - {label: Title, name: title, widget: string}
-          - {label: Map, name: map, widget: image}
-          - {label: Map Link, name: link, widget: string}
-          - label: Contact Entries
-            name: contact_entries
-            widget: list
-            fields:
-              - label: Heading
-                name: heading
-                widget: string
-              - label: Text
-                name: text
-                widget: text
       - file: "site/content/team/_index.md"
         label: "Team Page"
         name: "team"
@@ -113,8 +94,6 @@ collections: # A list of collections the CMS should be able to edit
           - {label: Title, name: title, widget: string}
           - {label: Subtitle, name: subtitle, widget: string}
           - {label: Intro, name: intro, widget: text}
-          - {label: "Image Right", name: "image", widget: "image"}
-          - {label: "Image Left", name: "imageL", widget: "image"}
           - label: Process
             name: process
             widget: object
@@ -135,3 +114,13 @@ collections: # A list of collections the CMS should be able to edit
               - {label: Heading, name: heading, widget: string}
               - {label: Text 1, name: text1, widget: text}
               - {label: Text 2, name: text2, widget: text}
+      - file: "site/content/contact/_index.md"
+        label: "Contact Page"
+        name: "contact"
+        fields:
+          - {label: "Title", name: title, widget: string}
+          - {label: "Intro", name: intro, widget: string}
+          - {label: "Map", name: map, widget: image}
+          - {label: "Map Link", name: link, widget: string}
+          - {label: "Location", name: location, widget: text}
+          - {label: "Inquiries", name: inquiries, widget: text}

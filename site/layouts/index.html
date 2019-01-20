@@ -1,10 +1,10 @@
 {{ define "main" }}
 
-{{ partial "hero-home" (dict "imageUrl" .Params.image "title" .Title) }}
+{{ partial "hero-home" (dict "imageUrl" "/img/home-jumbo.png" "title" .Title) }}
 
 {{ partial "3-up" .Params }}
 
-{{ partial "image-l" (dict "imageUrl" .Params.imageL) }}
+{{ partial "image-l" (dict "imageUrl" "/img/home-left.png") }}
 
 {{ partial "news-sm" . }}
 

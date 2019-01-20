@@ -1,7 +1,5 @@
 ---
 title: "We use data science and synthetic biology to discover and develop new medicines."
-image: /img/home-jumbo.png
-imageL: /img/home-left.png
 intro:
     heading: "Finding Small Molecules to Treat Disease"
     text: "We know many of the proteins that drive illnesses like cancer, but most are considered “undruggable” by experts. However, small molecules have evolved in several other species to target these proteins. Now, we have a way to find them and develop them into medicines."

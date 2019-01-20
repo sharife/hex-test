@@ -1,10 +1,10 @@
 {{ define "main" }}
 
-{{ partial "hero-sm" (dict "imageUrl" .Params.image "title" .Title "subtitle" .Params.subtitle "intro" .Params.intro) }}
+{{ partial "hero-sm" (dict "imageUrl" "/img/about-right.png" "title" .Title "subtitle" .Params.subtitle "intro" .Params.intro) }}
 
 {{ partial "2-up" .Params }}
 
-{{ partial "image-l" (dict "imageUrl" .Params.imageL) }}
+{{ partial "image-l" (dict "imageUrl" "/img/about-left.png") }}
 
 {{ partial "text-and-image-r" (dict "heading" .Params.platform.heading "text1" .Params.platform.text1 "text2" .Params.platform.text2 "image" .Params.platform.image) }}
 
