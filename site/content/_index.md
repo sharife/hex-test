@@ -11,7 +11,7 @@ intro:
     find them and develop them into medicines.
 icons:
   - heading: GENOMICS
-    image: img/icon-genomics.svg
+    image: /img/icon-genomics.svg
     text: >-
       Thanks to exponential reductions in DNA sequencing costs, thousands of
       species' genomes are available now.
