@@ -67,9 +67,9 @@ label
   padding: var(--spacing-extra-small) var(--spacing-small);
   position: absolute;
   left: 0;
-  top: 0;
+  top: 2px;
   pointer-events: none;
-  opacity: 0;
+  opacity: 1;
   line-height: 1;
   transition: var(--hover-transition);
   z-index: 2;
