@@ -4,7 +4,7 @@ intro:
     heading: "Finding Small Molecules to Treat Disease"
     text: "We know many of the proteins that drive illnesses like cancer, but most are considered “undruggable” by experts. However, small molecules have evolved in several other species to target these proteins. Now, we have a way to find them and develop them into medicines."
 icons:
-    - image: img/icon-genomics.svg
+    - image: /img/icon-genomics.svg
       heading: "GENOMICS"
       text: "Thanks to exponential reductions in DNA sequencing costs, thousands of species' genomes are available now."
     - image: /img/icon-datascience.svg
