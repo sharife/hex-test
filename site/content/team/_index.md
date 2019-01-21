@@ -50,7 +50,7 @@ advisors:
 investors:
   heading: Investors
   items:
-    - image: /img/fpo.png
+    - image: 'https://ucarecdn.com/43020439-1bda-45e6-b7c6-3b90814d2fd6/'
     - image: /img/fpo.png
     - image: /img/fpo.png
 ---
