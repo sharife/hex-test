@@ -30,7 +30,7 @@ founders:
       text: >
         Yi is a founder of Hexagon, Professor at UCLA, and a world expert on
         fungal enzymes and natural products.
-      title: Test
+      title: Title
   heading: Founders
 advisors:
   heading: Advisors
