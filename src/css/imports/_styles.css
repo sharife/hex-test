@@ -36,7 +36,7 @@
 
 
 /* Used in the navbar */
-.divider-black {
+.divider-black .nav-p {
   box-shadow: inset 0 -4px 0 var(--black);
   /* Link hover states */
   & ul a:hover, & ul a:focus, & ul a:active {
@@ -44,7 +44,7 @@
   }
 }
 
-.divider-black .active {
+.divider-black .nav-p .active {
   box-shadow: inset 0 -4px 0 var(--primary);
 }
 
@@ -79,9 +79,14 @@
   overflow-x:hidden;
 }
 
-.header-text {
+.home-header-text {
   z-index:1; 
   margin-top: -74%;
+}
+
+.header-text {
+  z-index:1; 
+  margin-top: -90%;
 }
 
 .header-text-sm {
@@ -96,6 +101,13 @@
   }
   .nav-p {
     display: none;
+  }
+}
+
+
+@media only screen and (max-width: 1200px) {
+  .header-text {
+    margin-top: -74%;
   }
 }
 
