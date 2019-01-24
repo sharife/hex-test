@@ -31,6 +31,13 @@ founders:
         Yi is a founder of Hexagon, Professor at UCLA, and a world expert on
         fungal enzymes and natural products.
       title: Title
+    - image: 'https://ucarecdn.com/8f09784a-3996-434d-b2ad-c85acc1d7eb7/'
+      name: Andy Aymeloglu
+      text: >-
+        Phasellus vitae malesuada felis, sagittis tincidunt nunc. Etiam commodo,
+        ligula eu efficitur molestie, nulla metus ornare orci, nec volutpat
+        libero libero id nunc.
+      title: Head of Engineering
   heading: Leadership
 advisors:
   heading: Advisors
@@ -51,7 +58,6 @@ investors:
   heading: Investors
   items:
     - image: 'https://ucarecdn.com/43020439-1bda-45e6-b7c6-3b90814d2fd6/'
-    - image: /img/fpo.png
     - image: /img/fpo.png
 ---
 
