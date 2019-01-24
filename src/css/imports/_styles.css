@@ -113,6 +113,9 @@
   .header-text {
     margin-top: -74%;
   }
+  .header-text-low {
+    margin-top: 0;
+  }
 }
 
 
