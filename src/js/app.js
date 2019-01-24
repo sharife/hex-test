@@ -10,11 +10,11 @@ if (window.netlifyIdentity) {
 }
 
 $(function(){  // $(document).ready shorthand
-  $('.intro1').fadeIn(1500);
+  $('.intro1').animate({'opacity':'1'},1500);
   $('.intro1').addClass('scaler');
-  $('.intro2').delay(2500).fadeIn(700);
-  $('.intro3').delay(3000).fadeIn(700);
-  $('.image-l').delay(1).fadeIn(700);
+  $('.intro2').delay(2500).animate({'opacity':'1'},700);
+  $('.intro3').delay(3000).animate({'opacity':'1'},700);
+  $('.image-l').delay(1).animate({'opacity':'1'},700);
 });
 
 

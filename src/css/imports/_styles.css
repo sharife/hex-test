@@ -8,7 +8,7 @@
 }
 
 .intro1, .intro2, .intro3, .image-l {
-  display: none;
+  opacity: 0;
 }
 
 .intro1 {
@@ -87,6 +87,10 @@
 .header-text {
   z-index:1; 
   margin-top: -90%;
+}
+
+.header-text-low {
+  margin-top: -10%;
 }
 
 .header-text-sm {
