@@ -19,9 +19,9 @@ collections: # A list of collections the CMS should be able to edit
       - {label: "Link", name: "link", widget: "string"}
       - {label: "Publication", name: "pub", widget: "string"}
       - {label: "Publish Date", name: "date", widget: "datetime"}
-      - {label: "Intro Blurb", name: "description", widget: "text"}
+      - {label: "Intro", name: "description", widget: "text"}
       - {label: "Image", name: "image", widget: "image", required: false}
-      - {label: "Body", name: "body", widget: "markdown"}
+      - {label: "Body", name: "body", widget: "markdown", required: false}
   - name: "job" # Used in routes, ie.: /admin/collections/:slug/edit
     label: "Job" # Used in the UI, ie.: "New Post"
     folder: "site/content/jobs" # The path to the folder where the documents are stored
@@ -29,7 +29,7 @@ collections: # A list of collections the CMS should be able to edit
     fields: # The fields each document in this collection have
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Publish Date", name: "date", widget: "datetime"}
-      - {label: "Intro Blurb", name: "description", widget: "text"}
+      - {label: "Intro", name: "description", widget: "text"}
       - {label: "Image", name: "image", widget: "image", required: false}
       - {label: "Body", name: "body", widget: "markdown"}
   - name: "pages"
@@ -57,7 +57,7 @@ collections: # A list of collections the CMS should be able to edit
         fields:
           - {label: Title, name: title, widget: string}
           - {label: Subtitle, name: subtitle, widget: string}
-          - label: Founders
+          - label: Leadership
             name: founders
             widget: object
             fields:

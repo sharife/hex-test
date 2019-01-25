@@ -11,14 +11,13 @@ export default class NewsPreview extends React.Component {
       <div className="flex justify-between">
         <div style={{
           width: "80px",
-          height: "80px"
+          height: "20px"
         }}></div>
         <p className="tc center">{ format(entry.getIn(["data", "date"]), "ddd, MMM D, YYYY") }</p>
       </div>
       <div className="cms mw6">
         <p>{ entry.getIn(["data", "description"]) }</p>
         { image && <img src={ image } alt={ entry.getIn(["data", "title"])} /> }
-        { widgetFor("body") }
       </div>
     </div>;
   }
