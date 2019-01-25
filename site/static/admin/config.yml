@@ -1,6 +1,7 @@
 backend:
   name: git-gateway
-
+display_url: http://hex-test.netlify.com
+publish_mode: editorial_workflow
 # media_folder: "site/static/img" # Folder where user uploaded files should go
 media_library:
   name: uploadcare
