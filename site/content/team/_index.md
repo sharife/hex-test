@@ -5,33 +5,33 @@ subtitle: >-
   investigation, with deep expertise at the intersection of these fields.
 founders:
   bios:
-    - image: 'https://ucarecdn.com/e1610fb3-c640-4785-8c55-57ace658899c/'
+    - image: 'https://ucarecdn.com/40fc3186-e433-4e0d-83f3-75f460a228f7/'
       name: 'Maureen Hillenmeyer, PhD'
       text: >
         Maureen is a founder and CEO of Hexagon. Previously, Maureen was
         director of the Genomes to Natural Products program and group leader at
         the Stanford Technology Genome Center.
       title: CEO
-    - image: 'https://ucarecdn.com/cbdbfec0-435a-4d60-8753-02d3c4234c84/'
+    - image: 'https://ucarecdn.com/4df80124-c719-4699-bdf6-ea6b6f7b0112/'
       name: 'Brian Naughton, PhD'
       text: >
         Brian is a founder and head of data at Hexagon. Previously, he was
         founding scientist at 23andMe.
       title: Head of Data Science
-    - image: 'https://ucarecdn.com/c6522d1b-5758-4f70-bbc7-5d44a15b7215/'
+    - image: 'https://ucarecdn.com/61f304a7-d5dc-4fb2-83e1-3d1a41d138a8/'
       name: 'Yi Tang, PhD'
       text: >
         Yi is a founder of Hexagon, Professor at UCLA, and a world expert on
         fungal enzymes and natural products.
       title: Title
-    - image: 'https://ucarecdn.com/a4e1e316-87e2-4db9-b202-f7a91eb5cb86/'
+    - image: 'https://ucarecdn.com/182e2343-fba1-4f3c-9af6-fe7ade7d6fe9/'
       name: 'Colin Harvey, PhD'
       text: >
         Colin is a founder and head of Chemistry and Biology at Hexagon.
         Previously, Colin led synthetic biology efforts for natural product
         discovery at the Stanford Genome Technology Center.
       title: Head of Biology & Chemistry
-    - image: 'https://ucarecdn.com/005b2103-0b57-4f57-a2c6-7adba3c54b87/'
+    - image: 'https://ucarecdn.com/12d45d83-5856-4669-8e1e-68cf92f2c94c/'
       name: Andy Aymeloglu
       text: >-
         Phasellus vitae malesuada felis, sagittis tincidunt nunc. Etiam commodo,
