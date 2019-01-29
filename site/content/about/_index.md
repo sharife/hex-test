@@ -1,18 +1,21 @@
 ---
 title: A new way to discover
-subtitle: 'Around the world, DNA is being sequenced at an unprecedented rate.'
+subtitle: ' '
 intro: >-
-  Curabitur vel orci interdum, fermentum massa at, sollicitudin neque. Mauris
-  ultricies eleifend lacus ac efficitur. Aliquam justo nulla, accumsan vitae sem
-  et. Donec est dui, accumsan id lacinia ut, sodales sit amet lacus. Vestibulum
-  tristique risus vitae ipsum fermentum, at tristique lacus dignissim.
+  DNA sequencing costs are dropping exponentially, and DNA synthesis costs are
+  not far behind. These technologies are enabling genome sequencing and
+  engineering at an unprecedented scale. Many of the world's most important
+  drugs are derived from nature, found piecemeal without knowledge of the source
+  DNA sequence. Hexagon Bio's mission is to turn the world's DNA into medicines.
 process:
   heading: Our Unique Process
   text: >-
-    Donec est dui, accumsan id lacinia ut, sodales sit amet lacus. Vestibulum
-    tristique risus vitae ipsum fermentum, at tristique lacus dignissim.
-    Curabitur ante lectus, facilisis at venenatis scelerisque, pulvinar vel
-    purus. 
+    Our core technologies were developed by our founders at Stanford
+    University. 
+
+    Hexagon Bio's proprietary methods allow us to develop drugs against novel
+    targets, even targets previously considered undruggable. Our focus is on
+    oncology and antifungal drugs.
 icons:
   - heading: TICker algorithm
     image: /img/icon-datascience.svg
@@ -27,14 +30,8 @@ icons:
 platform:
   heading: Sequencing Partners
   text1: >-
-    Curabitur vel orci interdum, fermentum massa at, sollicitudin neque. Mauris
-    ultricies eleifend lacus ac efficitur. Aliquam justo nulla, accumsan vitae
-    sem et. Curabitur vel orci interdum, fermentum massa at, sollicitudin neque.
-    Mauris ultricies eleifend lacus ac efficitur. Aliquam justo nulla, accumsan
-    vitae sem et.
-  text2: >-
-    Aliquam justo nulla, accumsan vitae sem et. Curabitur vel orci interdum,
-    fermentum massa at, sollicitudin neque. Mauris ultricies eleifend lacus ac
-    efficitur.
+    We are interested in partnering on sequencing large fungal collections.
+    Email us at info@hexagonbio.com if you are interested in collaborating.
+  text2: ''
 ---
 
