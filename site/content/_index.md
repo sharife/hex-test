@@ -27,7 +27,8 @@ icons:
       compounds for clinical development.
 jobs:
   heading: Driven to Discover
-  image: 'https://ucarecdn.com/b9e5baf5-e3ae-4717-aa42-c06e04e61758/'
+  image: >-
+    https://ucarecdn.com/c51e34b8-30f5-4b14-a867-c0d2b31533ab/-/preview/-/enhance/50/
   text: >-
     Hexagon’s team includes PhDs in computational biology, biochemistry, and
     chemistry, as well as senior software engineers. We’re driven by the
