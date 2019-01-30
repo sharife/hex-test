@@ -24,7 +24,7 @@ export default class TeamPreview extends React.Component {
           <h2 className="f2 b lh-title mb2">{entry.getIn(["data", "founders", "heading"])}</h2>
 
           <div className="flex-ns flex-wrap mhn2-ns mb3">
-            {(entry.getIn(["data", "founders", "bios"]) || []).map((founder, index) => <div className="ph2-ns w-50-ns mb4" key={index}>
+            {(entry.getIn(["data", "leaders", "bios"]) || []).map((founder, index) => <div className="ph2-ns w-50-ns mb4" key={index}>
               <img src={founder.get("image") && getAsset(founder.get("image"))} alt="" className="db mb3" style={{width: "240px"}}/>
               <p className="f4 b mb1">{founder.get("name")}</p>
               <p className="f6 mb1">{founder.get("title")}</p>
