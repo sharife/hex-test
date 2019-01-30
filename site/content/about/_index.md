@@ -31,9 +31,10 @@ platform:
   heading: Sequencing Partners
   text1: >-
     We have ongoing collaborations with academic, governmental and industrial
-    entities in genome sequencing projects. Do you have fungal strains that you
-    would like to have sequenced?  We are looking to work with you! If you are
-    interested in partnering with us, please email info@hexagonbio.com. 
-  text2: ''
+    entities in genome sequencing projects.
+  text2: >-
+    Do you have fungal strains that you would like to have sequenced? We are
+    looking to work with you! If you are interested in partnering with us,
+    please email info@hexagonbio.com.
 ---
 
