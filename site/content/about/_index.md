@@ -1,12 +1,11 @@
 ---
 title: A new way to discover
-subtitle: ' '
+subtitle: ' DNA sequencing costs are dropping exponentially, and DNA synthesis costs are not far behind.'
 intro: >-
-  DNA sequencing costs are dropping exponentially, and DNA synthesis costs are
-  not far behind. These technologies are enabling genome sequencing and
-  engineering at an unprecedented scale. Many of the world's most important
-  drugs are derived from nature, found piecemeal without knowledge of the source
-  DNA sequence. Hexagon Bio's mission is to turn the world's DNA into medicines.
+  These technologies are enabling genome sequencing and engineering at an
+  unprecedented scale. Many of the world's most important drugs are derived from
+  nature, found piecemeal without knowledge of the source DNA sequence. Hexagon
+  Bio's mission is to turn the world's DNA into medicines.
 process:
   heading: Our Unique Process
   text: >-
