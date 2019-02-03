@@ -67,7 +67,7 @@ advisors:
 investors:
   heading: Investors
   items:
-    - image: 'https://ucarecdn.com/9db1f8cf-a3a0-417a-a893-1ea5c50be0ae/'
     - image: 'https://ucarecdn.com/3654106a-f742-49d8-a170-7dddb982b170/'
+    - image: 'https://ucarecdn.com/9db1f8cf-a3a0-417a-a893-1ea5c50be0ae/'
 ---
 
