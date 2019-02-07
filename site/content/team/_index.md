@@ -57,12 +57,12 @@ advisors:
       title: >-
         Managing Director & Chief Medical Officer, Velocity Pharmaceutical
         Development
-    - link: ''
+    - link: 'https://www.linkedin.com/in/juliahong1/'
       name: Julia Hong
-      title: 'Stemcentrx,  Genentech, Pfizer'
-    - link: ''
+      title: Angel Investor & Advisor
+    - link: 'https://www.sherpalo.com/#Meet_Ram_Shriram'
       name: Ram Shriram
-      title: 'Google, Stanford'
+      title: 'Founder, Sherpalo Ventures'
     - link: ''
       name: 'Marnix Medema, PhD'
       title: 'antiSMASH, Wageningen, UCSF'
