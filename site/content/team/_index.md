@@ -52,9 +52,11 @@ advisors:
     - link: 'https://www.linkedin.com/in/leonard-post-3535bb32/'
       name: 'Leonard Post, PhD'
       title: 'Chief Scientific Officer, Vivace Therapeutics'
-    - link: ''
-      name: 'Andy Perlman, MD'
-      title: 'Genentech, Tularik, Velocity'
+    - link: 'http://www.vpd.net/management_team/Perlman.html'
+      name: 'Andrew Perlman, MD'
+      title: >-
+        Managing Director & Chief Medical Officer, Velocity Pharmaceutical
+        Development
     - link: ''
       name: Julia Hong
       title: 'Stemcentrx,  Genentech, Pfizer'
