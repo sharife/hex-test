@@ -12,21 +12,21 @@ leaders:
         Maureen is a founder and CEO of Hexagon Bio. Previously, she was
         director of the Genomes to Natural Products program and group leader at
         the Stanford Technology Genome Center.
-      title: CEO
+      title: CEO & Founder
     - image: 'https://ucarecdn.com/4df80124-c719-4699-bdf6-ea6b6f7b0112/'
       link: 'https://www.linkedin.com/in/brian-naughton-9755052'
       name: 'Brian Naughton, PhD'
       text: >
         Brian is a founder and head of data at Hexagon. Previously, he was
         founding scientist at 23andMe.
-      title: Head of Data
+      title: Head of Data & Founder
     - image: 'https://ucarecdn.com/61f304a7-d5dc-4fb2-83e1-3d1a41d138a8/'
       link: 'https://www.linkedin.com/in/yi-tang-562833a6'
       name: 'Yi Tang, PhD'
       text: >
         Yi is a founder of Hexagon Bio, Professor at UCLA, and a world expert on
         fungal enzymes and natural products.
-      title: Title
+      title: Founder
     - image: 'https://ucarecdn.com/182e2343-fba1-4f3c-9af6-fe7ade7d6fe9/'
       link: 'https://www.linkedin.com/in/colinjbharvey'
       name: 'Colin Harvey, PhD'
@@ -34,7 +34,7 @@ leaders:
         Colin is a founder and Head of Chemistry and Biology at Hexagon Bio.
         Previously, he led synthetic biology efforts for natural product
         discovery at the Stanford Genome Technology Center.
-      title: Head of Biology & Chemistry
+      title: Head of Biology & Chemistry & Founder
     - image: 'https://ucarecdn.com/12d45d83-5856-4669-8e1e-68cf92f2c94c/'
       link: 'https://www.linkedin.com/in/aaymeloglu'
       name: Andy Aymeloglu
