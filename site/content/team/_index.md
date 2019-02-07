@@ -46,9 +46,9 @@ leaders:
 advisors:
   heading: Advisors
   items:
-    - link: ''
-      name: 'Chris Walsh, PhD'
-      title: 'Stanford, Harvard, Genzyme, Millennium'
+    - link: 'https://profiles.stanford.edu/christopher-walsh'
+      name: 'Christopher Walsh, PhD'
+      title: 'Adjunct Professor, Chemistry, Stanford University'
     - link: ''
       name: 'Leonard Post, PhD'
       title: 'Vivace, BioMarin, Onyx, Parke-Davis'
