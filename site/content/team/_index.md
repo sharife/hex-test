@@ -65,7 +65,7 @@ advisors:
       title: 'Founder, Sherpalo Ventures'
     - link: 'https://www.linkedin.com/in/marnix-medema-52350a26/'
       name: 'Marnix Medema, PhD'
-      title: Assistant Professor of Bioinformatics at Wageningen University
+      title: 'Assistant Professor, Bioinformatics, Wageningen University'
 investors:
   heading: Investors
   items:
