@@ -12,21 +12,21 @@ leaders:
         Maureen is a founder and CEO of Hexagon Bio. Previously, she was
         director of the Genomes to Natural Products program and group leader at
         the Stanford Technology Genome Center.
-      title: CEO
+      title: CEO & Founder
     - image: 'https://ucarecdn.com/4df80124-c719-4699-bdf6-ea6b6f7b0112/'
       link: 'https://www.linkedin.com/in/brian-naughton-9755052'
       name: 'Brian Naughton, PhD'
       text: >
         Brian is a founder and head of data at Hexagon. Previously, he was
         founding scientist at 23andMe.
-      title: Head of Data
+      title: Head of Data & Founder
     - image: 'https://ucarecdn.com/61f304a7-d5dc-4fb2-83e1-3d1a41d138a8/'
       link: 'https://www.linkedin.com/in/yi-tang-562833a6'
       name: 'Yi Tang, PhD'
       text: >
         Yi is a founder of Hexagon Bio, Professor at UCLA, and a world expert on
         fungal enzymes and natural products.
-      title: Title
+      title: Founder
     - image: 'https://ucarecdn.com/182e2343-fba1-4f3c-9af6-fe7ade7d6fe9/'
       link: 'https://www.linkedin.com/in/colinjbharvey'
       name: 'Colin Harvey, PhD'
@@ -34,7 +34,7 @@ leaders:
         Colin is a founder and Head of Chemistry and Biology at Hexagon Bio.
         Previously, he led synthetic biology efforts for natural product
         discovery at the Stanford Genome Technology Center.
-      title: Head of Biology & Chemistry
+      title: Head of Biology & Chemistry & Founder
     - image: 'https://ucarecdn.com/12d45d83-5856-4669-8e1e-68cf92f2c94c/'
       link: 'https://www.linkedin.com/in/aaymeloglu'
       name: Andy Aymeloglu
@@ -46,24 +46,26 @@ leaders:
 advisors:
   heading: Advisors
   items:
-    - link: ''
-      name: 'Chris Walsh, PhD'
-      title: 'Stanford, Harvard, Genzyme, Millennium'
-    - link: ''
+    - link: 'https://profiles.stanford.edu/christopher-walsh'
+      name: 'Christopher Walsh, PhD'
+      title: 'Adjunct Professor, Chemistry, Stanford University'
+    - link: 'https://www.linkedin.com/in/leonard-post-3535bb32/'
       name: 'Leonard Post, PhD'
-      title: 'Vivace, BioMarin, Onyx, Parke-Davis'
-    - link: ''
-      name: 'Andy Perlman, MD'
-      title: 'Genentech, Tularik, Velocity'
-    - link: ''
+      title: 'Chief Scientific Officer, Vivace Therapeutics'
+    - link: 'http://www.vpd.net/management_team/Perlman.html'
+      name: 'Andrew Perlman, MD'
+      title: >-
+        Managing Director & Chief Medical Officer, Velocity Pharmaceutical
+        Development
+    - link: 'https://www.linkedin.com/in/juliahong1/'
       name: Julia Hong
-      title: 'Stemcentrx,  Genentech, Pfizer'
-    - link: ''
+      title: Angel Investor & Advisor
+    - link: 'https://www.sherpalo.com/#Meet_Ram_Shriram'
       name: Ram Shriram
-      title: 'Google, Stanford'
-    - link: ''
+      title: 'Founder, Sherpalo Ventures'
+    - link: 'https://www.linkedin.com/in/marnix-medema-52350a26/'
       name: 'Marnix Medema, PhD'
-      title: 'antiSMASH, Wageningen, UCSF'
+      title: 'Assistant Professor, Bioinformatics, Wageningen University'
 investors:
   heading: Investors
   items:
