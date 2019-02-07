@@ -63,9 +63,9 @@ advisors:
     - link: 'https://www.sherpalo.com/#Meet_Ram_Shriram'
       name: Ram Shriram
       title: 'Founder, Sherpalo Ventures'
-    - link: ''
+    - link: 'https://www.linkedin.com/in/marnix-medema-52350a26/'
       name: 'Marnix Medema, PhD'
-      title: 'antiSMASH, Wageningen, UCSF'
+      title: Assistant Professor of Bioinformatics at Wageningen University
 investors:
   heading: Investors
   items:
