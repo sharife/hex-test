@@ -17,19 +17,25 @@ sectionPagesMenu = "main"
 	weight = 2
 
 	[[menu.main]]
+	identifier = "publications"
+	name = "PUBLICATIONS"
+	url = "/publications"
+	weight = 3
+
+	[[menu.main]]
 	identifier = "team"
 	name = "TEAM"
 	url = "/team"
-	weight = 3
+	weight = 4
 
 	[[menu.main]]
 	identifier = "jobs"
 	name = "JOBS"
 	url = "/jobs"
-	weight = 4
+	weight = 5
 
 	[[menu.main]]
 	identifier = "contact"
 	name = "CONTACT"
 	url = "/contact"
-	weight = 5
+	weight = 6
