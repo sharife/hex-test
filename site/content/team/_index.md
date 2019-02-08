@@ -53,7 +53,7 @@ advisors:
       name: 'Leonard Post, PhD'
       title: 'Chief Scientific Officer, Vivace Therapeutics'
     - link: 'http://www.vpd.net/management_team/Perlman.html'
-      name: 'Andrew Perlman, MD, PhD'
+      name: 'Andrew Perlman, MD PhD'
       title: >-
         Managing Director & Chief Medical Officer, Velocity Pharmaceutical
         Development
