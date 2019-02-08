@@ -7,7 +7,7 @@ media_library:
   name: uploadcare
   config:
     publicKey: 9e007d301f6ad1c6a146
-    uploadcare_tabs: 'file url gdrive dropbox'
+    uploadcare_tabs: file url gdrive dropbox
 #public_folder: "img"
 
 collections: # A list of collections the CMS should be able to edit
@@ -32,7 +32,7 @@ collections: # A list of collections the CMS should be able to edit
       - {label: "Link", name: "link", widget: "string"}
       - {label: "Journal", name: "pub", widget: "string"}
       - {label: "Publish Date", name: "date", widget: "datetime"}
-      - {label: "Abstract", name: "description", widget: "text"}
+      - {label: "Authors", name: "description", widget: "text"}
       - {label: "Image", name: "image", widget: "image", required: false}
       - {label: "Body", name: "body", widget: "markdown", required: false}
   - name: "job" # Used in routes, ie.: /admin/collections/:slug/edit
