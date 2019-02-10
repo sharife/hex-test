@@ -93,9 +93,13 @@
   margin-top: -6%;
 }
 
+.header-text-b {
+  margin-top: -25%;
+}
+
 .header-text-sm {
   z-index:1; 
-  margin-top: -68%;
+  margin-top: -65%;
 }
 
 
@@ -105,6 +109,9 @@
   }
   .nav-p {
     display: none;
+  }
+  .header-text-b {
+    margin-top: 0;
   }
 }
 

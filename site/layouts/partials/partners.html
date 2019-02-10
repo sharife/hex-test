@@ -1,0 +1,15 @@
+<div class="pv2 mb5">
+	<div class="ph3 mw7 tc center header-text-b">
+		<h2 class="f2 b lh-title mb2 hideme">{{.heading}}</h2>
+		<div class="mw6 center">
+			<p class="mw8 hideme">{{.text1}}</p>
+			<p class="mw8 hideme">{{.text2}}</p>
+		</div>
+			
+		{{ if .buttonText}}
+		<div class="tc">
+			<a href="{{.buttonLink}}" class="btn raise">{{.buttonText}}</a>
+		</div>
+		{{ end }}
+	</div>
+</div>

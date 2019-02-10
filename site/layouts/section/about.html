@@ -6,7 +6,9 @@
 
 {{ partial "image-l" (dict "imageUrl" "/img/about-left.png") }}
 
-{{ partial "text-and-image-r" (dict "heading" .Params.platform.heading "text1" .Params.platform.text1 "text2" .Params.platform.text2 "image" .Params.platform.image) }}
+{{ partial "pubs" .Params.pubs }}
+
+{{ partial "partners" (dict "heading" .Params.partners.heading "text1" .Params.partners.text1 "text2" .Params.partners.text2) }}
 
 <!-- <div class="mw7 center ph3 pt4">
 
