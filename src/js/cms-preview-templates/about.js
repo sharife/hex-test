@@ -53,21 +53,28 @@ export default class AboutPreview extends React.Component {
 
       <div className="pv2 ph3 mw6 center">
         <div className="flex-m mhn2-l tr">
-          <h2 className="f2 b lh-title mb2">{entry.getIn(["data", "platform", "heading"])}</h2>
+          <h2 className="f2 b lh-title mb2">{entry.getIn(["data", "pubs", "heading"])}</h2>
+          
+          <div className="flex-ns flex-wrap mhn2-ns mb3">
+            {(entry.getIn(["data", "pubs", "items"]) || []).map((paper, index) => <div className="ph2-ns mb4" key={index}>
+              <p className="b mb1">{paper.get("title")}</p>
+              <p className="f6 i mb1">{paper.get("pub")}</p>
+              <p className="f6 mb1">{paper.get("description")}</p>
+            </div>)}
+          </div>
+        </div>
+      </div>
 
-          <p className="mw8">{entry.getIn(["data", "platform", "text1"])}</p>
-          <p className="mw8">{entry.getIn(["data", "platform", "text2"])}</p>
+      <div className="pv2 ph3 mw6 center">
+        <div className="flex-m mhn2-l tc">
+          <h2 className="f2 b lh-title mb2">{entry.getIn(["data", "partners", "heading"])}</h2>
+
+          <p className="mw8">{entry.getIn(["data", "partners", "text1"])}</p>
+          <p className="mw8">{entry.getIn(["data", "partners", "text2"])}</p>
         </div>
       </div>
 
 
-      <div className="bg-off-white pv4">
-        <div className="mw7 center ph3 pt4">
-          {values.map(({text, heading, imageUrl}, i) =>
-            <MediaBlock key={i} text={text} heading={heading} imageUrl={imageUrl} reverse={i % 2 === 0} />
-          )}
-        </div>
-      </div>
 
     </div>;
   }
