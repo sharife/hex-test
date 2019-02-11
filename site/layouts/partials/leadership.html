@@ -8,7 +8,8 @@
 					<img src="{{ .image }}" alt="" class="db mb3" style="width:75%">
 					<p class="f4 b mb1">{{ .name }}</p>
 					<p class="f6 mb1">{{ .title }}</p>
-					<p>{{ .text }} {{ partial "social-icon-alt" (dict "link" .link "svg" "icons-linkedin") }}</p>
+					<p class="mb0">{{ .text }}</p>
+					<p>{{ partial "social-icon-alt" (dict "link" .link "svg" "icons-profile") }}</p>
 				</div>
 			{{ end }}
 		</div>
@@ -18,7 +19,8 @@
 					<img src="{{ .image }}" alt="" class="db mb3" style="width:75%">
 					<p class="f4 b mb1">{{ .name }}</p>
 					<p class="f6 mb1">{{ .title }}</p>
-					<p>{{ .text }} {{ partial "social-icon-alt" (dict "link" .link "svg" "icons-linkedin") }}</p>
+					<p class="mb0">{{ .text }}</p>
+					<p>{{ partial "social-icon-alt" (dict "link" .link "svg" "icons-profile") }}</p>
 				</div>
 			{{ end }}
 		</div>

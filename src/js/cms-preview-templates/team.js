@@ -21,7 +21,7 @@ export default class TeamPreview extends React.Component {
           <h2 className="f2 b lh-title mb2">{entry.getIn(["data", "intro", "heading"])}</h2>
           <p className="mb4 mw6">{entry.getIn(["data", "intro", "description"])}</p>
 
-          <h2 className="f2 b lh-title mb2">{entry.getIn(["data", "founders", "heading"])}</h2>
+          <h2 className="f2 b lh-title mb2">{entry.getIn(["data", "leaders", "heading"])}</h2>
 
           <div className="flex-ns flex-wrap mhn2-ns mb3">
             {(entry.getIn(["data", "leaders", "bios"]) || []).map((founder, index) => <div className="ph2-ns w-50-ns mb4" key={index}>
