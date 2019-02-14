@@ -50,6 +50,6 @@ partners:
   text2: >-
     Do you have fungal strains that you would like to have sequenced? We are
     looking to work with you! If you are interested in partnering with us,
-    please email info@hexagonbio.com.
+    please get in touch.
 ---
 
