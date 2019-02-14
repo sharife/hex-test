@@ -21,4 +21,4 @@ The ideal candidate should be a self-starter who will troubleshoot issues, ident
 * Ability to thrive in a fast-paced, start-up environment
 * Excellent collaboration and communication skills
 
-To apply, please send your CV and cover letter to jobs@hexagonbio.com.
+To apply, please send your CV and cover letter to careers@hexagonbio.com.

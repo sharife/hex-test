@@ -23,9 +23,9 @@ sectionPagesMenu = "main"
 	weight = 3
 
 	[[menu.main]]
-	identifier = "jobs"
-	name = "JOBS"
-	url = "/jobs"
+	identifier = "careers"
+	name = "CAREERS"
+	url = "/careers"
 	weight = 4
 
 	[[menu.main]]

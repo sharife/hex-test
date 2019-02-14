@@ -25,7 +25,7 @@ icons:
     text: >-
       Our unique synthetic biology platform enables us to rapidly produce lead
       compounds for clinical development.
-jobs:
+careers:
   heading: Driven to Discover
   image: 'https://ucarecdn.com/23690f0b-49ef-4a90-b110-6cba809d0fb4/'
   text: >-

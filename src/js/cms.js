@@ -5,7 +5,7 @@ import HomePreview from "./cms-preview-templates/home";
 import AboutPreview from "./cms-preview-templates/about";
 import NewsPreview from "./cms-preview-templates/news";
 import TeamPreview from "./cms-preview-templates/team";
-import JobsPreview from "./cms-preview-templates/jobs";
+import JobsPreview from "./cms-preview-templates/careers";
 import ContactPreview from "./cms-preview-templates/contact";
 
 
@@ -26,6 +26,6 @@ CMS.registerPreviewTemplate("home", HomePreview);
 CMS.registerPreviewTemplate("about", AboutPreview);
 CMS.registerPreviewTemplate("news", NewsPreview);
 CMS.registerPreviewTemplate("team", TeamPreview);
-CMS.registerPreviewTemplate("job", JobsPreview);
+CMS.registerPreviewTemplate("careers", CareersPreview);
 CMS.registerPreviewTemplate("contact", ContactPreview);
 CMS.registerWidget("color", ColorControl);

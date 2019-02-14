@@ -18,4 +18,4 @@ You will interface with our biology and chemistry teams, helping us use sequenci
 * an interest in drug development and biotech
 * the flexibility to work at the early stages of a startup
 
-To apply, please send your CV and cover letter to info@hexagonbio.com.
+To apply, please send your CV and cover letter to careers@hexagonbio.com.
