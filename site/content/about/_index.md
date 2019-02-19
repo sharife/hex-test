@@ -47,7 +47,7 @@ partners:
   heading: Sequencing Partners
   text1: >-
     We have ongoing collaborations with academic, governmental and industrial
-    entities in genome sequencing projects.
+    entities for genome sequencing projects.
   text2: >-
     Do you have fungal strains that you would like to have sequenced? We are
     looking to work with you! If you are interested in partnering with us,
