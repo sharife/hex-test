@@ -25,28 +25,29 @@ icons:
     image: /img/icon-synthbio.svg
     text: >-
       The HEx platform for rapid production of Targeted Bioengineered Small
-      Molecules (TBSMs) creates new chemical entities, not repurposed drugs.
+      Molecules (TBSMs) creates new chemical entities based on truly novel
+      chemical scaffolds.
 pubs:
   heading: Peer-reviewed Publications
   items:
-    - title: >-
-        HEx: A heterologous expression platform for the discovery of fungal natural
-        products.
-      link: 'http://advances.sciencemag.org/content/4/4/eaar5459'
-      pub: Science Advances
-      date: 2018-04-11T19:00:00.000Z
+    - date: 2018-04-11T19:00:00.000Z
       description: >-
         Colin J. B. Harvey, Mancheng Tang, Ulrich Schlecht, Joe Horecka, Curt R.
         Fischer, Hsiao-Ching Lin, Jian Li, Brian Naughton, James Cherry, Molly
-        Miranda, Yong Fuga Li, Angela M. Chu, James R. Hennessy, Gergana A. Vandova,
-        Diane Inglis, Raeka S. Aiyar, Lars M. Steinmetz, Ronald W. Davis, Marnix H.
-        Medema, Elizabeth Sattely, Chaitan Khosla, Robert P. St. Onge, Yi Tang, and
-        Maureen E. Hillenmeyer.
+        Miranda, Yong Fuga Li, Angela M. Chu, James R. Hennessy, Gergana A.
+        Vandova, Diane Inglis, Raeka S. Aiyar, Lars M. Steinmetz, Ronald W.
+        Davis, Marnix H. Medema, Elizabeth Sattely, Chaitan Khosla, Robert P.
+        St. Onge, Yi Tang, and Maureen E. Hillenmeyer.
+      link: 'http://advances.sciencemag.org/content/4/4/eaar5459'
+      pub: Science Advances
+      title: >-
+        HEx: A heterologous expression platform for the discovery of fungal
+        natural products.
 partners:
   heading: Sequencing Partners
   text1: >-
     We have ongoing collaborations with academic, governmental and industrial
-    entities in genome sequencing projects.
+    entities for genome sequencing projects.
   text2: >-
     Do you have fungal strains that you would like to have sequenced? We are
     looking to work with you! If you are interested in partnering with us,
