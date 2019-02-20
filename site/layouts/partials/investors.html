@@ -4,9 +4,9 @@
 
 		<div class="flex-ns flex-wrap mhn2-ns mb3">
 			{{ range .items }}
-				<div class="w-33-ns mb4 ph3-ns" style="padding-left:0;">
+				<div class="w-33-ns mb4 ph3-ns tc">
 					{{ if .image }}
-						<img src="{{ .image }}" alt=""/>
+						<img src="{{ .image }}" style="max-width:80%" alt=""/>
 					{{ end }}
 				</div>
 			{{ end }}
