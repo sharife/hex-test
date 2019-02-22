@@ -75,7 +75,7 @@
 
 .bg-fix-primary {
   padding: 0;
-  padding-right: 12rem;
+  padding-right: 11rem;
   & :first-child {
     box-shadow: var(--spacing-small) 0 0 var(--primary), -var(--spacing-small) 0 0 var(--primary);
   }
