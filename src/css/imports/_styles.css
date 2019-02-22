@@ -139,7 +139,16 @@
   }
   .home-header-text {
     padding-left:0rem;
-    padding-right:3rem;
+    padding-right:3.4rem;
+  }
+  .ml {
+    padding-left:1rem;
+  }
+  .f1 {
+    font-size:2rem;
+  }
+  .ml-1 {
+    margin-left:-1rem;
   }
 }
 
