@@ -13,7 +13,7 @@
 
 .intro1 {
   transform: scale(0.75);
-  transition: transform 750ms ease-out;
+  transition: transform 1000ms ease-out;
 }
 
 .scaler {
