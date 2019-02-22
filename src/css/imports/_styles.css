@@ -137,6 +137,10 @@
   .bg-fix-secondary  {
     padding-right:0rem;
   }
+  .home-header-text {
+    padding-left:0rem;
+    padding-right:3rem;
+  }
 }
 
 @media only screen and (max-width: 375px) {
