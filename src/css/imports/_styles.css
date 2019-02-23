@@ -7,14 +7,14 @@
   padding-top:10px;
 }
 
-.intro1, .intro2, .intro3, .image-l {
+/*.intro1, .intro2, .intro3, .image-l {
   opacity: 0;
 }
 
 .intro1 {
   transform: translate(-100px);
   transition: transform 1000ms ease-out;
-}
+}*/
 
 .bo {
   border-left: 0.25rem solid var(--primary);
