@@ -89,7 +89,7 @@
 }
 
 .home-header-text {
-  z-index:11; 
+  z-index:1; 
   /*margin-top: -74%;*/
   width: 100%; height:100%; position: absolute; top: 0; left: 0;
 }
@@ -110,6 +110,10 @@
 .header-text-sm {
   z-index:1; 
   margin-top: -65%;
+}
+
+.home-intro {
+  margin-top:-75%;
 }
 
 
@@ -165,21 +169,9 @@
 }
 
 
-
-
-
-
 .video-div {
-    /*position: relative;
-    display: block;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    overflow: hidden;
-    z-index: 0;*/
     width: 100%;
-    height: 40vw;
+    height: 60vw;
     overflow: hidden;
     position: relative;
     top: 0;
@@ -189,20 +181,8 @@
 }
 
 .video-bg {
-    /*position: relative;
-    top: 50%;
-    left: 50%;
     width: auto;
     height: auto;
-    min-width: 100%;
-    min-height: 100%;
-    opacity:.5;
-    -webkit-transform: translate(-50%, -50%);
-       -moz-transform: translate(-50%, -50%);
-        -ms-transform: translate(-50%, -50%);
-        transform: translate(-50%, -50%);*/
-    width: auto; /* width needs to be set to 100% */
-    height: auto; /* height needs to be set to 100% */
     max-width: 100%;
     position: absolute;
     left: 0;
@@ -219,15 +199,59 @@
 }
 
 
-@media only screen and (max-width: 1170px) {
-  .video-div {
-    height:60vw;
+@media only screen and (max-width: 2560px) {
+  .home-intro {
+    margin-top:-65%;
   }
 }
 
-@media only screen and (max-width: 400px) {
+
+@media only screen and (max-width: 1920px) {
+  .home-intro {
+    margin-top:-35%;
+  }
+}
+
+
+@media only screen and (max-width: 1680px) {
+  .home-intro {
+    margin-top:-30%;
+  }
+}
+
+@media only screen and (max-width: 1620px) {
+  .home-intro {
+    margin-top:-25%;
+  }
+}
+
+@media only screen and (max-width: 1366px) {
+  .home-intro {
+    margin-top:-15%;
+  }
+}
+
+@media only screen and (max-width: 1280px) {
+  .home-intro {
+    margin-top:-10%;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .video-div {
+    height:60vw;
+  }
+  .home-intro {
+    margin-top:0;
+  }
+}
+
+@media only screen and (max-width: 420px) {
   .video-div {
     height:90vw;
+  }
+  .home-intro {
+    margin-top:-10%;
   }
 }
 
