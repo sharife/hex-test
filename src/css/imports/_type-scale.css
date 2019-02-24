@@ -10,7 +10,7 @@
   .f-headline-ns { font-size: 6rem; }
   .f-5-ns,
   .f-subheadline-ns { font-size: 5rem; }
-  .f1-ns { font-size: 2.7rem; }
+  .f1-ns { font-size: 2.3rem; }
   .f2-ns { font-size: 1.9rem; }
   .f3-ns { font-size: 1.5rem; }
   .f4-ns { font-size: 1.25rem;; }
@@ -23,8 +23,8 @@
   .f-headline-m { font-size: 6rem; }
   .f-5-m,
   .f-subheadline-m { font-size: 5rem; }
-  .f1-m { font-size: 2.7rem; }
-  .f2-m { font-size: 1.9rem; }
+  .f1-m { font-size: 2.3rem; }
+  .f2-m { font-size: 2rem; }
   .f3-m { font-size: 1.5rem; }
   .f4-m { font-size: 1.25rem;; }
   .f5-m { font-size: var(--spacing-medium); }
