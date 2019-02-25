@@ -258,7 +258,7 @@
 
 @media (max-width: 767px) {
     .video-div {
-        background: url('/img/home-jumbo.png') top center / cover no-repeat;
+        background: url('/img/video-bg-still.jpg') top center / cover no-repeat;
     }
 
     .video-bg {
