@@ -60,7 +60,7 @@ advisors:
     - link: 'https://www.linkedin.com/in/juliahong1/'
       name: Julia Hong
       title: Angel Investor & Biotech Advisor
-    - link: 'https://www.sherpalo.com/#Meet_Ram_Shriram'
+    - link: 'https://www.sherpalo.com/ram-shriram'
       name: Ram Shriram
       title: 'Founder, Sherpalo Ventures'
     - link: 'https://www.linkedin.com/in/marnix-medema-52350a26/'
