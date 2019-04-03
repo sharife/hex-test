@@ -1,7 +1,6 @@
 ---
 title: >-
-  We use data science and synthetic biology to discover and develop new
-  medicines.
+  We turn the world's DNA into new medicines.
 intro:
   heading: Finding Small Molecules to Treat Disease
   text: >-

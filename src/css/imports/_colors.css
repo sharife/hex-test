@@ -73,15 +73,3 @@
   background-image: url("/img/bg-hex-pattern.png");
 }
 
-.bg-fix-primary {
-  padding: 0;
-  padding-right: 11rem;
-  & :first-child {
-    box-shadow: var(--spacing-small) 0 0 var(--primary), -var(--spacing-small) 0 0 var(--primary);
-  }
-}
-
-.bg-fix-secondary {
-  padding: 0;
-  padding-right: 12rem;
-}

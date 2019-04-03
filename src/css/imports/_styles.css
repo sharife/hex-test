@@ -64,6 +64,19 @@
 }
 
 
+.bg-fix-primary {
+  padding-right: 7rem;
+  & :first-child {
+    box-shadow: var(--spacing-small) 0 0 var(--primary), -var(--spacing-small) 0 0 var(--primary);
+  }
+}
+
+.bg-fix-secondary {
+  padding: 0;
+  padding-right: 12rem;
+}
+
+
 
 .header-image {
   z-index: 0;
