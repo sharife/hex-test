@@ -5,14 +5,16 @@
 
 		<div class="w-80 flex-ns mhn1-ns flex-wrap mb3" style="margin-left:auto">
 			{{ range first 3 (where .Data.Pages "Type" "news") }}
-				<div class="w-100-ns flex tr hideme">
+				<div class="w-100-ns flex tr">
 					{{ .Render "li-news-sm" }}
 				</div>
 			{{ end }}
 		</div>
 
-		<div class="tr ph3 mb2 hideme">
-			<a href="/news" class="btn raise">More news »</a>
+		<div class="tr ph3 mb2">
+			<div class="hideme">
+				<a href="/news" class="btn raise">More news »</a>
+			</div>
 		</div>
 
 	</div>

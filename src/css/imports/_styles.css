@@ -4,17 +4,25 @@
 
 .hideme {
   opacity: 0;
-  padding-top:10px;
+  padding-top: 10px;
+}
+.hideme-l {
+  opacity: 0;
+  margin-right: -30px;
 }
 
-/*.intro1, .intro2, .intro3, .image-l {
+.intro1 {
+  margin-left: -4rem;
+}
+
+.intro1, .intro2, .intro3, .intro4, .image-l {
   opacity: 0;
 }
 
 .intro1 {
-  transform: translate(-100px);
+  transform: translate(0);
   transition: transform 1000ms ease-out;
-}*/
+}
 
 .bo {
   border-left: 0.25rem solid var(--primary);

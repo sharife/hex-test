@@ -10,11 +10,12 @@ if (window.netlifyIdentity) {
 }
 
 $(function(){  // $(document).ready shorthand
-  // $('.intro1').animate({'opacity':'1'},1500);
+  $('.intro1').animate({'opacity':'1', 'margin-left': '0'},700);
   // $('.intro1').addClass('scaler');
-  // $('.intro2').delay(2500).animate({'opacity':'1'},700);
-  // $('.intro3').delay(3000).animate({'opacity':'1'},700);
-  // $('.image-l').delay(1).animate({'opacity':'1'},700);
+  $('.intro2').delay(2000).animate({'opacity':'1'},700);
+  $('.intro3').delay(2500).animate({'opacity':'1'},700);
+  $('.intro4').delay(2800).animate({'opacity':'1'},700);
+  $('.image-l').delay(1).animate({'opacity':'1'},700);
 });
 
 
@@ -32,7 +33,7 @@ $(document).ready(function() {
                 $(this).animate({'opacity':'1', 'padding-top': '-10px'},350);
                     
             }
-        }); 
+        });
     });
 });
 
