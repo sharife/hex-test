@@ -8,6 +8,8 @@ description: >-
   You will gather data, interpret and present results and collaborate with the
   team.
 ---
+* ## Qualifications
+
 * working towards a B.S. or M.S. in microbiology, molecular biology or related field
 * familiarity with DNA experiments, including PCR, nucleic acid extraction
 * familiarity with cell-based assays
