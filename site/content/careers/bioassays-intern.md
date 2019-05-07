@@ -11,6 +11,7 @@ description: >-
 ## Qualifications
 
 * working towards a B.S. or M.S. in microbiology, molecular biology or related field
+* prior experience working with budding yeast (Saccharomyces cerevisiae) for creating gene deletion mutants is a requirement
 * familiarity with DNA experiments, including PCR, nucleic acid extraction
 * familiarity with cell-based assays
 * experience with cell culture and sterile technique
