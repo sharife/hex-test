@@ -15,26 +15,15 @@ description: >-
 ---
 ## Qualifications
 
-B.S. in microbiology or molecular biology or related degree preferred
-
-Available to work for 6+ months
-
-1+ years laboratory experience required
-
-Experience operating autoclaves, glass washers, pH meters and balances is preferred
-
-Experience in molecular biology techniques and microbial sterile techniques is preferred
-
-Experience with inventory management in a laboratory setting is preferred
-
-Excellent attention to detail, strong communication and organizational skills
-
-Ability to follow oral and/or written instructions
-
-This position requires the ability to lift 50lbs
-
-Ability to thrive in a fast-paced, start-up environment and prioritize responsibilities
-
-Available to work in Menlo Park, California
+* B.S. in microbiology or molecular biology or related degree preferred Available to work for 6+ months
+* 1+ years laboratory experience required
+* Experience operating autoclaves, glass washers, pH meters and balances is preferred
+* Experience in molecular biology techniques and microbial sterile techniques is preferred
+* Experience with inventory management in a laboratory setting is preferred
+* Excellent attention to detail, strong communication and organizational skills
+* Ability to follow oral and/or written instructions
+* This position requires the ability to lift 50lbs
+* Ability to thrive in a fast-paced, start-up environment and prioritize responsibilities
+* Available to work in Menlo Park, California
 
 To apply, please send your CV and cover letter to careers@hexagonbio.com.
