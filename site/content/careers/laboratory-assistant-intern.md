@@ -13,6 +13,8 @@ description: >-
   Scientists. This is an ideal position for a new graduate looking to gain
   industry experience.
 ---
+## Qualifications
+
 B.S. in microbiology or molecular biology or related degree preferred
 
 Available to work for 6+ months
@@ -33,6 +35,6 @@ This position requires the ability to lift 50lbs
 
 Ability to thrive in a fast-paced, start-up environment and prioritize responsibilities
 
-Available to work in Menlo Park, California 
+Available to work in Menlo Park, California
 
 To apply, please send your CV and cover letter to careers@hexagonbio.com.
