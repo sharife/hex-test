@@ -4,15 +4,12 @@ subtitle: ' DNA sequencing costs are dropping exponentially, and DNA synthesis c
 intro: >-
   These technologies are enabling genome sequencing and engineering at an
   unprecedented scale. Many of the world's most important drugs are derived from
-  nature, found piecemeal without knowledge of the source DNA sequence. Hexagon
-  Bio's mission is to turn the world's DNA into medicines.
+  nature, found by accident without knowledge of the source DNA sequence. We start from genomic data, then use our advanced software to identify, prioritize, and generate variants of the most promising molecules for testing.
 process:
   heading: Our Unique Process
   text: >-
     Our core technologies were developed by our founders at Stanford
-    University. 
-
-    Hexagon Bio's proprietary methods allow us to develop drugs against novel
+    University. Hexagon Bio's proprietary methods allow us to develop drugs against novel
     targets, even targets previously considered undruggable. Our focus is on
     oncology and antifungal drugs.
 icons:

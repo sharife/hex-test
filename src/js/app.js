@@ -40,18 +40,18 @@ $(document).ready(function() {
 });
 
 
-$(function(){ 
-  var $el = $(".example:first"), text = $el.text(),
-      words = text.split(" ");
+// $(function(){ 
+//   var $el = $(".example:first"), text = $el.text(),
+//       words = text.split(" ");
 
-  var html = "";
-  for (var i = 0; i < words.length; i++) {
-      html += "<span>" + words[i] + " </span>";
-  };
-  $el.html(html).children().hide().each(function(i){
-    $(this).delay(i*500).fadeIn(700);
-  });
-});
+//   var html = "";
+//   for (var i = 0; i < words.length; i++) {
+//       html += "<span>" + words[i] + " </span>";
+//   };
+//   $el.html(html).children().hide().each(function(i){
+//     $(this).delay(i*500).fadeIn(700);
+//   });
+// });
 
 
 // Select all links with hashes
