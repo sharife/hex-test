@@ -10,10 +10,10 @@ if (window.netlifyIdentity) {
 }
 
 $(function(){  // $(document).ready shorthand
-  $('.intro1').animate({'opacity':'1', 'margin-left': '0'},1000);
+  $('.intro1').animate({'opacity':'1', 'margin-left': '0'},1500, 'easeOutExpo');
   $('.header-image').animate({'opacity':'1'},1000);
   // $('.intro1').addClass('scaler');
-  $('#scroll').delay(1000).animate({'opacity':'1'},700);
+  $('#scroll').delay(1500).animate({'opacity':'1'},700);
   $('.intro2').delay(2000).animate({'opacity':'1'},700);
   $('.intro3').delay(2500).animate({'opacity':'1'},700);
   $('.intro4').delay(2800).animate({'opacity':'1'},700);

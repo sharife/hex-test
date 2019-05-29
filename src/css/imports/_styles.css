@@ -21,7 +21,7 @@
 
 .intro1 {
   transform: translate(0);
-  transition: transform 2000ms ease-out;
+  transition: transform 1000ms ease-out;
 }
 
 .bo {
@@ -229,22 +229,22 @@
 
 @keyframes flickerAnimation {
   0%   { opacity:1; }
-  50%  { opacity:0; }
+  50%  { opacity:0.2; }
   100% { opacity:1; }
 }
 @-o-keyframes flickerAnimation{
   0%   { opacity:1; }
-  50%  { opacity:0; }
+  50%  { opacity:0.2; }
   100% { opacity:1; }
 }
 @-moz-keyframes flickerAnimation{
   0%   { opacity:1; }
-  50%  { opacity:0; }
+  50%  { opacity:0.2; }
   100% { opacity:1; }
 }
 @-webkit-keyframes flickerAnimation{
   0%   { opacity:1; }
-  50%  { opacity:0; }
+  50%  { opacity:0.2; }
   100% { opacity:1; }
 }
 .animate-flicker {
