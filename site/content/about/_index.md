@@ -5,13 +5,16 @@ intro: >-
   These technologies are enabling genome sequencing and engineering at an
   unprecedented scale. Many of the world's most important drugs are derived from
   nature, found by accident without knowledge of the source DNA sequence. We start from genomic data, then use our advanced software to identify, prioritize, and generate variants of the most promising molecules for testing.
-process:
-  heading: Our Unique Process
-  text: >-
-    Our core technologies were developed by our founders at Stanford
-    University. Hexagon Bio's proprietary methods allow us to develop drugs against novel
+approach:
+  title: Our Unique Approach
+  intro: >-
+    Our proprietary methods allow us to develop drugs against novel
     targets, even targets previously considered undruggable. Our focus is on
     oncology and antifungal drugs.
+  heading: Why fungi?
+  text: >-
+    Fungi are similar to humans, sharing 6000 genes, all of which are potential therapeutic targets. Fungi have evolved medicines for human proteins over billions on years. And while over 5 million fungi exist on Earth, only a few thousand species have been studied to date. 
+  image: /img/tree-of-life.png
 icons:
   - heading: TICker algorithm
     image: /img/icon-datascience.svg

@@ -2,7 +2,9 @@
 
 {{ partial "hero-sm" (dict "imageUrl" "/img/about-right.png" "title" .Title "subtitle" .Params.subtitle "intro" .Params.intro) }}
 
-{{ partial "2-up" .Params }}
+<!-- {{ partial "2-up" .Params }} -->
+
+{{ partial "text-and-image" .Params.approach }}
 
 {{ partial "image-l" (dict "imageUrl" "/img/about-left.png") }}
 
