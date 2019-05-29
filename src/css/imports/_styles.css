@@ -53,6 +53,10 @@
   color: white;
 }
 
+.btn {
+  background-color: rgba(0,0,0,0);
+}
+
 
 /* Used in the navbar */
 .divider-black .nav-p {
