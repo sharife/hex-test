@@ -13,7 +13,7 @@ icons:
     image: /img/icon-genomics.svg
     text: >-
       Thanks to exponential reductions in DNA sequencing costs, thousands of
-      species' genomes are available now.
+      species' genomes are now available.
   - heading: DATA SCIENCE
     image: /img/icon-datascience.svg
     text: >-

@@ -1,0 +1,28 @@
+<div class="pv4">
+	<div class="ph3 mw7 center">
+		<div class="mw6 mb4 tc center">
+			<h2 class="f2 b lh-title mb2">{{.title}}</h2>
+			<h4>{{.intro}}</h4>
+		</div>
+
+		<div class="flex-ns mhn2-ns mb3 mw6 center">
+	      {{ range .icons }}
+	      <div class="ph2-ns w-50-ns tc hideme">
+	        <img src="{{.image}}" alt="" class="center db mb3" style="width: 25%">
+	        <p class="b mb1">{{.heading}}</p>
+	        <p class="f6">{{.text}}</p>
+	      </div>
+	      {{ end }}
+	    </div>
+	    <div class="mw6 mb4 tc center">
+	    	<p class="f4 b lh-title mb2 hideme">{{.heading}}</h2>
+	    	<p class="f6 hideme">{{.text}}</p>
+	    </div>
+		
+
+		<!-- <div class="tc">
+			<a href="{{.buttonLink}}" class="btn raise">{{.buttonText}}</a>
+		</div> -->
+
+	</div>
+</div>
