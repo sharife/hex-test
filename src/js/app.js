@@ -11,7 +11,12 @@ if (window.netlifyIdentity) {
 
 $(function(){  // $(document).ready shorthand
   $('.intro1').animate({'opacity':'1', 'margin-left': '0'},1500, 'easeOutExpo');
+  $('.intro-page').delay(250).animate({'opacity':'1'},700);
+  $('.intro-body').delay(1000).animate({'opacity':'1'},700);
+  $('.intro2B').delay(500).animate({'opacity':'1'},700);
+  $('.intro3B').delay(700).animate({'opacity':'1'},700);
   $('.header-image').animate({'opacity':'1'},1000);
+  $('.header-image-sm').animate({'opacity':'1'},1000);
   // $('.intro1').addClass('scaler');
   $('#scroll').delay(1500).animate({'opacity':'1'},700);
   $('.intro2').delay(2000).animate({'opacity':'1'},700);
