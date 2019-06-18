@@ -6,7 +6,7 @@ intro: >-
   unprecedented scale. Many of the world's most important medicines are derived from
   nature, found by accident without knowledge of the source DNA sequence. We start from genomic data, then use our advanced software to identify, prioritize, and generate variants of the most promising molecules for testing.
 approach:
-  title: Our Unique Approach
+  main: Our Unique Approach
   intro: >-
     Our proprietary methods allow us to develop medicines against novel
     targets, even targets previously considered undruggable. Our focus is on

@@ -106,7 +106,7 @@ collections: # A list of collections the CMS should be able to edit
             name: approach
             widget: object
             fields:
-              - {label: Title, name: title, widget: string}
+              - {label: Title, name: main, widget: string}
               - {label: Intro, name: intro, widget: text}
               - {label: Heading, name: heading, widget: string}
               - {label: Text, name: text, widget: text}

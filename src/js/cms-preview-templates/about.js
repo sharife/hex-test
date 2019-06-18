@@ -37,11 +37,8 @@ export default class AboutPreview extends React.Component {
       
       <div className="ph3 mw7 center">
         <div className="w-40-l ph2-l">
-          <h2 className="f2 b lh-title mb2 tc">{entry.getIn(["data", "approach", "title"])}</h2>
-
+          <h2 className="f2 b lh-title mb2 tc">{entry.getIn(["data", "approach", "main"])}</h2>
           <p className="mb4 mw6 center tc">{entry.getIn(["data", "approach", "intro"])}</p>
-          <p className="b tc mb1">{entry.getIn(["data", "approach", "heading"])}</p>
-          <p className="tc f6">{entry.getIn(["data", "approach", "text"])}</p>
         </div>
       </div>
 
@@ -51,6 +48,13 @@ export default class AboutPreview extends React.Component {
           <p className="b tc mb1">{icon.get("heading")}</p>
           <p className="tc f6">{icon.get("text")}</p>
         </div>)}
+      </div>
+
+      <div className="ph3 mw7 center">
+        <div className="w-40-l ph2-l">
+          <p className="b tc mb1">{entry.getIn(["data", "approach", "heading"])}</p>
+          <p className="tc f6">{entry.getIn(["data", "approach", "text"])}</p>
+        </div>
       </div>
 
       <div className="pv2 ph3 mw6 center">

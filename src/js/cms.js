@@ -5,7 +5,7 @@ import HomePreview from "./cms-preview-templates/home";
 import AboutPreview from "./cms-preview-templates/about";
 import NewsPreview from "./cms-preview-templates/news";
 import TeamPreview from "./cms-preview-templates/team";
-import JobsPreview from "./cms-preview-templates/careers";
+import CareersPreview from "./cms-preview-templates/careers";
 import ContactPreview from "./cms-preview-templates/contact";
 
 
