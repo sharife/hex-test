@@ -2,10 +2,12 @@
 
 {{ partial "hero-sm" (dict "imageUrl" "/img/team-right.png" "title" .Title "subtitle" .Params.subtitle) }}
 
+<div class="ph5 ml">
 {{ partial "leadership" .Params.leaders }}
 
 {{ partial "advisors" .Params.advisors }}
 
 {{ partial "investors" .Params.investors }}
 
+</div>
 {{ end }}

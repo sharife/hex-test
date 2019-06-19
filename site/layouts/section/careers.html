@@ -2,16 +2,21 @@
 
 {{ partial "hero-sm" (dict "imageUrl" "/img/jobs-right.png" "title" "Grow with us" "subtitle" "We're currently hiring computational biologists, biologists with experience in automation, chemists, and more." "intro" "Our mission is to discover and develop the next generation of drugs. We take inspiration from nature, where millions of years of evolution led to breakthrough medicines such as penicillin, statins, and taxol. We use computation, synthetic biology, DNA sequencing, and chemistry to mine thousands of fungal genomes, searching for the next treatment for cancer, infectious disease, and other diseases with unmet need.") }}
 
-<div class="mw7 ph5 mb5 ml intro-body" style="margin-top:-10%">
-	<p class="f6 b mb1">OPEN POSITIONS</p>
-	<hr style="border-style: dashed; border-color:grey;" />
-  <ul class="flex-ns flex-wrap">
-      {{ range .Pages.ByPublishDate.Reverse }}
-          <div class="w-100-ns flex">
-            {{ .Render "li-jobs"}}
-          </div>
-      {{ end }}
-  </ul>
+
+<div class="ph5 ml">
+	<div class="mw8 center">
+		<div class="mw7 mb5 ml intro-body" style="margin-top:-10%">
+			<p class="f6 b mb1">OPEN POSITIONS</p>
+			<hr style="border-style: dashed; border-color:grey;" />
+		  <ul class="flex-ns flex-wrap">
+		      {{ range .Pages.ByPublishDate.Reverse }}
+		          <div class="w-100-ns flex">
+		            {{ .Render "li-jobs"}}
+		          </div>
+		      {{ end }}
+		  </ul>
+		</div>
+	</div>
 </div>
 
 {{end}}

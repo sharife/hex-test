@@ -1,15 +1,18 @@
 {{ define "main" }}
 
 {{ partial "hero-sm" (dict "imageUrl" "/img/news-right.png" "title" "News") }}
-
-<div class="mw7 ph5 ml intro-body" style="margin-top:-10%">
-  <ul class="flex-ns flex-wrap mhn1-ns pv3">
-      {{ range .Pages.ByPublishDate.Reverse }}
-          <div class="w-80-ns flex">
-            {{ .Render "li-news"}}
-          </div>
-      {{ end }}
-  </ul>
+<div class="ph5 ml">
+	<div class="mw8 center">
+		<div class="mw7 ml intro-body" style="margin-top:-10%">
+		  <ul class="flex-ns flex-wrap mhn1-ns pv3">
+		      {{ range .Pages.ByPublishDate.Reverse }}
+		          <div class="w-80-ns flex">
+		            {{ .Render "li-news"}}
+		          </div>
+		      {{ end }}
+		  </ul>
+		</div>
+	</div>
 </div>
 
 {{end}}
