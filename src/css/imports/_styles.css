@@ -214,6 +214,11 @@
   .home-header-text {
     margin-top: -55%;
   }
+  .header-image {
+    min-width: 25rem;
+    margin-bottom: -3rem;
+    margin-left: -3rem;
+  }
 }
 
 @media only screen and (max-width: 375px) {
