@@ -216,7 +216,8 @@
   }
   .header-image {
     min-width: 25rem;
-    margin-bottom: -3rem;
+    margin-top: 1.5rem;
+    margin-bottom: -2.5rem;
     margin-left: -3rem;
   }
 }
