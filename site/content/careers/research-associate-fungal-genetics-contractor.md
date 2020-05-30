@@ -31,4 +31,4 @@ description: >-
 * Ability to thrive in a fast-paced, start-up environment and prioritize responsibilities
 * Available to work in Menlo Park, California 
 
-To apply, please email your resume/CV and cover letter to careers@hexagonbio.com. Please specify your availability in your cover letter.
+To apply, please send your CV and cover letter to careers@hexagonbio.com. Please specify your availability in your cover letter.
