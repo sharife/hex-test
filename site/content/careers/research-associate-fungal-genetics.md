@@ -1,5 +1,5 @@
 ---
-title: ' Research Associate, Fungal Genetics (Contractor)'
+title: ' Research Associate, Fungal Genetics'
 date: 2020-05-30T21:57:30.738Z
 description: >-
   As a Research Associate,  you’ll be critical to the day-to-day operations of
@@ -11,10 +11,6 @@ description: >-
   working closely with our Scientists  on molecular biology projects. This is an
   ideal position for someone with prior industry experience or with extensive
   experience in an academic microbiology laboratory setting.
-
-
-  This is a contractor position for at least 6 months and has the potential to
-  grow into a full-time opportunity.
 ---
 **Qualifications**
 
